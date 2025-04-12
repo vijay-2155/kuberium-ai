@@ -1,0 +1,114 @@
+{
+    "user_id": "nallana_hari_krishna_001",
+    "profile": {
+        "name": "Nallana Hari Krishna",
+        "dob": "2004-06-15",
+        "pan": "ABCDE1234F",
+        "mobile": "+91 9030920129",
+        "email": "nallanahk@gmail.com"
+    },
+    "bank_accounts": [
+        {
+            "account_id": "acc_001",
+            "bank": "HDFC Bank",
+            "account_number": "XXXX1234",
+            "ifsc": "HDFC0001234",
+            "branch": "Visakhapatnam Main",
+            "type": "Savings",
+            "balance": 53450.25,
+            "transactions": [
+                {
+                    "transaction_id": "txn_001",
+                    "date": "2025-04-08",
+                    "description": "UPI-Payment-Zomato",
+                    "type": "Debit",
+                    "amount": 350.0,
+                    "closing_balance": 53100.25
+                },
+                {
+                    "transaction_id": "txn_002",
+                    "date": "2025-04-05",
+                    "description": "NEFT-Salary-CropDoctor.ai",
+                    "type": "Credit",
+                    "amount": 35000.0,
+                    "closing_balance": 53450.25
+                }
+            ]
+        }
+    ],
+    "credit_cards": [
+        {
+            "card_id": "cc_001",
+            "issuer": "ICICI Bank",
+            "card_number": "XXXX-XXXX-XXXX-5678",
+            "limit": 100000,
+            "outstanding": 12450.75,
+            "due_date": "2025-04-20",
+            "transactions": [
+                {
+                    "transaction_id": "cctxn_001",
+                    "date": "2025-04-02",
+                    "description": "Amazon India",
+                    "amount": 4999.0,
+                    "type": "Debit"
+                },
+                {
+                    "transaction_id": "cctxn_002",
+                    "date": "2025-03-25",
+                    "description": "Swiggy Instamart",
+                    "amount": 350.75,
+                    "type": "Debit"
+                }
+            ]
+        }
+    ],
+    "mutual_funds": [
+        {
+            "folio_number": "1234567890",
+            "provider": "Groww",
+            "investments": [
+                {
+                    "scheme_id": "mf_001",
+                    "scheme": "Nippon India Small Cap Fund",
+                    "units": 45.23,
+                    "nav": 125.4,
+                    "value": 5672.0
+                },
+                {
+                    "scheme_id": "mf_002",
+                    "scheme": "Axis Bluechip Fund",
+                    "units": 20.0,
+                    "nav": 42.15,
+                    "value": 843.0
+                }
+            ]
+        }
+    ],
+    "loans": [
+        {
+            "loan_id": "loan_001",
+            "loan_type": "Education Loan",
+            "bank": "SBI",
+            "account_number": "XXXX5678",
+            "sanctioned_amount": 400000.0,
+            "outstanding": 298000.0,
+            "emi": 5600.0,
+            "tenure_months": 72,
+            "next_due_date": "2025-04-28",
+            "status": "Active"
+        }
+    ],
+    "insurance_policies": [
+        {
+            "policy_id": "ins_001",
+            "type": "Health Insurance",
+            "provider": "Star Health",
+            "policy_number": "SH123456789",
+            "sum_assured": 500000,
+            "premium": 8500,
+            "premium_frequency": "Yearly",
+            "maturity_date": "2030-03-31",
+            "nominee": "Father"
+        }
+    ]
+}
