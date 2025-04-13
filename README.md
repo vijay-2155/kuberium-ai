@@ -154,9 +154,9 @@ The system includes comprehensive error handling for:
 5. Create a Pull Request
 
 ## License
-
-[Your License Here]
+mit license
 
 ## Contact
 
-[Your Contact Information] 
+vijay-2155
+likithsatya192
